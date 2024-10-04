@@ -56,13 +56,13 @@ Aqui estão algumas imagens do projeto:
 1. Clone o repositório:
 
    ```bash
-   git clone []
+   git clone https://github.com/DalioSY/api-teste
    ```
 
 2. Navegue até o diretório do projeto:
 
    ```bash
-   cd []
+   cd api-teste
    ```
 
 3. Instale as dependências:
@@ -102,9 +102,9 @@ npm run dev
    ```
    query {
       users {
-      id
-      name
-      age
+        id
+        name
+        age
       }
    }
    ```
@@ -114,9 +114,9 @@ npm run dev
    ```
    mutation {
       createUser(name: "Dalio", age: 39) {
-      id
-      name
-      age
+        id
+        name
+        age
       }
    }
    ```
@@ -125,10 +125,10 @@ npm run dev
 
    ```
    mutation {
-      updateUser(id: 1, name: "Dalio Updated", age: 40) {
-      id
-      name
-      age
+      updateUser(id: 1, name: "Dalio", age: 40) {
+        id
+        name
+        age
       }
    }
    ```
@@ -137,7 +137,7 @@ npm run dev
 
    ```
    mutation {
-      deleteUser(id: 1)
+        deleteUser(id: 1)
       }
    ```
 
